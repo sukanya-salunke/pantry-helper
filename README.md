@@ -19,10 +19,10 @@ You need Python 3 installed. Open a terminal in this folder and run:
 python pantry_helper.py
 ```
 
-On some Windows installations, use:
+On this Windows setup, the Python launcher aliases are unavailable, so run the installed interpreter directly in PowerShell:
 
 ```powershell
-py pantry_helper.py
+& "$env:LOCALAPPDATA\Python\pythoncore-3.14-64\python.exe" pantry_helper.py
 ```
 
 Example input:
